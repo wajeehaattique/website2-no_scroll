@@ -1,63 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#070b1f" />
-  <title>Wajeeha Attique | Galaxy Terminal CV</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="stars" aria-hidden="true"></div>
-  <main class="editor-shell">
-    <header class="titlebar">
-      <div class="window-dots"><i></i><i></i><i></i></div>
-      <div class="path"><span class="path-muted">~/</span>wajeeha/cv <span class="path-muted">— Visual Studio Code</span></div>
-      <div class="title-actions"><span class="live-dot"></span><span>LOCAL PREVIEW</span></div>
-    </header>
-    <div class="workspace">
-      <aside class="activity-rail" aria-label="Editor tools">
-        <div class="activity active" title="Explorer">▤</div>
-        <a class="activity" href="https://github.com/" target="_blank" rel="noreferrer" title="GitHub">⌘</a>
-        <div class="rail-bottom">⋯</div>
-      </aside>
-      <aside class="explorer">
-        <div class="explorer-heading">EXPLORER <span>⌄</span></div>
-        <div class="project-name">⌄ <b>WAJEEHA-CV</b></div>
-        <nav class="file-list" aria-label="CV sections">
-          <button class="file active" data-page="profile"><span class="file-icon md">M</span> profile.md</button>
-          <button class="file" data-page="skills"><span class="file-icon js">JS</span> skills.js</button>
-          <button class="file" data-page="languages"><span class="file-icon json">{ }</span> languages.json</button>
-          <button class="file" data-page="education"><span class="file-icon json">{ }</span> education.json</button>
-          <button class="file" data-page="projects"><span class="file-icon folder">▸</span> projects/</button>
-          <button class="file" data-page="certifications"><span class="file-icon md">M</span> certifications.md</button>
-          <button class="file" data-page="contact"><span class="file-icon sh">$</span> contact.sh</button>
-        </nav>
-        <div class="explorer-note"><span class="tiny-pulse"></span> Open to AI opportunities</div>
-      </aside>
-      <section class="main-area">
-        <div class="tabs" role="tablist" aria-label="Open files">
-          <button class="tab active" data-page="profile"><span class="file-icon md">M</span> profile.md <span class="tab-x">×</span></button>
-          <button class="tab" data-page="skills"><span class="file-icon js">JS</span> skills.js <span class="tab-x">×</span></button>
-          <button class="tab" data-page="projects"><span class="file-icon folder">▸</span> projects/ <span class="tab-x">×</span></button>
-          <div class="tab-spacer"></div><span class="split-icon">▣</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070b1f" />
+    <title>Wajeeha Attique | Galaxy Terminal CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="stars" aria-hidden="true"></div>
+    <main class="editor-shell">
+      <header class="titlebar">
+        <div class="window-dots"><i></i><i></i><i></i></div>
+        <div class="path">
+          <span class="path-muted">~/</span>wajeeha/cv
+          <span class="path-muted">— Visual Studio Code</span>
         </div>
-        <div class="breadcrumbs"><span>WAJEEHA-CV</span><b>›</b><span id="crumb">profile.md</span></div>
-        <div class="content-frame">
-          <div class="line-numbers" id="lineNumbers" aria-hidden="true">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12</div>
-          <article class="content" id="content" aria-live="polite"></article>
+        <div class="title-actions">
+          <span class="live-dot"></span><span>LOCAL PREVIEW</span>
         </div>
-        <div class="terminal">
-          <div class="terminal-tabs"><span class="terminal-tab selected">TERMINAL</span><span>OUTPUT</span><span>DEBUG CONSOLE</span><span class="terminal-controls">⌃　×</span></div>
-          <div class="terminal-body"><span class="prompt">➜</span> <span class="terminal-path">~</span> <span id="terminalCommand">contact --status</span><span class="cursor"></span><span class="terminal-result" id="terminalResult">  // Ready to connect</span></div>
-        </div>
-      </section>
-    </div>
-    <footer class="statusbar"><span class="status-left"><b>↗</b> main* <span>◉ 0 errors</span></span><span class="status-center">UTF-8　　LF　　HTML</span><span class="status-right"><span class="status-pulse"></span> Open to AI opportunities　　Ln 1, Col 1</span></footer>
-  </main>
-  <script src="script.js"></script>
-</body>
+      </header>
+      <div class="workspace">
+        <aside class="activity-rail" aria-label="Editor tools">
+          <div class="activity active" title="Explorer">▤</div>
+          <a
+            class="activity"
+            href="https://github.com/"
+            target="_blank"
+            rel="noreferrer"
+            title="GitHub"
+            >⌘</a
+          >
+          <div class="rail-bottom">⋯</div>
+        </aside>
+        <aside class="explorer">
+          <div class="explorer-heading">EXPLORER <span>⌄</span></div>
+          <div class="project-name">⌄ <b>WAJEEHA-CV</b></div>
+          <nav class="file-list" aria-label="CV sections">
+            <button class="file active" data-page="profile">
+              <span class="file-icon md">M</span> profile.md
+            </button>
+            <button class="file" data-page="skills">
+              <span class="file-icon js">JS</span> skills.js
+            </button>
+            <button class="file" data-page="languages">
+              <span class="file-icon json">{ }</span> languages.json
+            </button>
+            <button class="file" data-page="education">
+              <span class="file-icon json">{ }</span> education.json
+            </button>
+            <button class="file" data-page="projects">
+              <span class="file-icon folder">▸</span> projects/
+            </button>
+            <button class="file" data-page="certifications">
+              <span class="file-icon md">M</span> certifications.md
+            </button>
+            <button class="file" data-page="contact">
+              <span class="file-icon sh">$</span> contact.sh
+            </button>
+          </nav>
+          <div class="explorer-note">
+            <span class="tiny-pulse"></span> Open to AI opportunities
+          </div>
+        </aside>
+        <section class="main-area">
+          <div class="tabs" role="tablist" aria-label="Open files">
+            <button class="tab active" data-page="profile">
+              <span class="file-icon md">M</span> profile.md
+              <span class="tab-x">×</span>
+            </button>
+            <button class="tab" data-page="skills">
+              <span class="file-icon js">JS</span> skills.js
+              <span class="tab-x">×</span>
+            </button>
+            <button class="tab" data-page="projects">
+              <span class="file-icon folder">▸</span> projects/
+              <span class="tab-x">×</span>
+            </button>
+            <div class="tab-spacer"></div>
+            <span class="split-icon">▣</span>
+          </div>
+          <div class="breadcrumbs">
+            <span>WAJEEHA-CV</span><b>›</b><span id="crumb">profile.md</span>
+          </div>
+          <div class="content-frame">
+            <div class="line-numbers" id="lineNumbers" aria-hidden="true">
+              1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12
+            </div>
+            <article class="content" id="content" aria-live="polite"></article>
+          </div>
+          <div class="terminal">
+            <div class="terminal-tabs">
+              <span class="terminal-tab selected">TERMINAL</span
+              ><span>OUTPUT</span><span>DEBUG CONSOLE</span
+              ><span class="terminal-controls">⌃　×</span>
+            </div>
+            <div class="terminal-body">
+              <span class="prompt">➜</span> <span class="terminal-path">~</span>
+              <span id="terminalCommand">contact --status</span
+              ><span class="cursor"></span
+              ><span class="terminal-result" id="terminalResult">
+                // Ready to connect</span
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="statusbar">
+        <span class="status-left"><b>↗</b> main* <span>◉ 0 errors</span></span
+        ><span class="status-center">UTF-8　　LF　　HTML</span
+        ><span class="status-right"
+          ><span class="status-pulse"></span> Open to AI opportunities　　Ln 1,
+          Col 1</span
+        >
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
